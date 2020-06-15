@@ -1,7 +1,22 @@
-# PLUGINS
+# nuxt-todo
 
-**This directory is not required, you can delete it if you don't want to use it.**
+## 構成
+- nuxt + vuexを使用
+- firebase Realtime Databaseでデータを永続化
 
-This directory contains Javascript plugins that you want to run before mounting the root Vue.js application.
+## Build Setup
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/plugins).
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
